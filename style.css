@@ -1,0 +1,276 @@
+body {
+	background-image: url(3.jpg);
+	background-size: 1688px; 
+}
+
+html{
+	overflow: hidden;
+}
+
+#navigation {
+	
+	font-size: 32px;
+	height: 100%;
+	width: 15%;
+	border-left: 7px solid #242ad8;
+	background-color: black ;
+	opacity: 0.8;
+	position: relative;
+	top: 15px;
+	left: 30px;
+}
+
+#navigation a {
+		
+	color: #defcf3;
+	text-decoration: none;
+
+}
+
+#navigation ul {
+	
+	padding: 30px;
+	position: relative;
+	transition: 1s;
+
+}
+
+#navigation ul:hover {
+	
+	transform: scale(1.2);
+	background-color: #1e6be8;
+
+	
+
+}
+section {
+	width: 30%;
+	position: relative;
+	bottom: 550px;
+	left: 700px;
+	
+}
+header {
+	width: 45%;
+	position: relative;
+	bottom: 15px;
+	left: 15px;
+	font-size: 30px;
+	color: #ef7b1c;
+	box-shadow: 5px 5px 5px #4c5147;
+}
+
+.Introduction {
+	width: 100%;
+	font-size: 36px;
+	text-align: center;
+	color: #d8113c;
+	position: relative;
+	right: 136px;
+	bottom: 30px;
+	border: 1px solid grey;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 15px;
+ 	background: #472129;
+ 	opacity: 0.9;
+}
+
+.telnumber {
+	width: 55%;
+	font-size: 42px;
+	position: relative;
+	border: 2px solid black;
+	padding-left: 20px;
+	padding-bottom: 5px;
+	bottom: 175px;
+	left: 600px;
+	border-radius: 15px;
+	background-color: #1dd150;
+	opacity: 0.6;
+}
+
+div.ordermenu {
+	border: 4px solid brown;
+	position: relative;
+	bottom: 125px;
+	right: 136px;
+	height: 590px;
+
+}
+div.from {
+	border: 2px solid green;
+	position: relative;
+	top: 20px;
+	left: 20px;
+	width: 105%;
+	padding-left: 50px;
+	width: 80%;
+	border-radius: 15px;
+	background-color: grey;
+	opacity: 0.7;
+	}
+p.From {
+	font-size: 32px;
+	color: white;
+	position: relative;
+	right: 30px;
+	
+
+}
+input[type="text"].from {
+	border: none;
+	border-bottom: 3px solid red;
+	height: 30px;
+	width: 300px;
+	position: relative;
+	background-color: grey;
+	opacity: 0.8;
+	color: white;
+	text-align: center;
+
+	
+
+}
+input[type="text"].from.house {
+	border: none;
+	border-bottom: 3px solid red;
+	height: 30px;
+	width: 32px;
+	position: relative;
+	bottom: 51px;
+	left: 330px;
+	text-align: center;
+}
+input[type="text"]::-webkit-input-placeholder {
+	color: white;
+}
+
+div.to {
+	background-color: grey;
+	position: relative;
+	bottom: 100px;
+	padding-left: 50px;
+	width: 80%;
+	border-radius: 15px;
+	border: 2px solid orange;
+	opacity: 0.7;
+	top: 50px;
+	left: 20px;
+}
+p.To {
+	color: white;
+	font-size: 32px;
+	position: relative;
+	right: 30px;
+}
+input[type="text"].to {
+	border: none;
+	border-bottom: 3px solid red;
+	height: 30px;
+	width: 300px;
+	position: relative;
+	background-color: grey;
+	opacity: 0.8;
+	color: white;
+	text-align: center;
+
+	
+
+}
+input[type="text"].to.house {
+	border: none;
+	border-bottom: 3px solid red;
+	height: 30px;
+	width: 32px;
+	position: relative;
+	bottom: 51px;
+	left: 330px;
+	text-align: center;
+}
+div.Orderbutton {
+	position: relative;
+	left: 400px;
+	top: 100px;
+
+}
+.order.button{
+	border: 2px solid yellow;
+	padding: 10px;
+	background: linear-gradient(to bottom left, #FF8749, #FF6939);
+	box-shadow: inset 0 0 40px ;
+	cursor: pointer;
+	
+}
+.order.button:hover {
+	border: 2px solid yellow;
+	padding: 10px;
+	background: linear-gradient(to bottom left, #FF8749, #FF6939);
+	box-shadow: none ;
+}
+
+
+p.text.about_us {
+	font-size: 56px;
+	color: ;
+	padding: 20px;
+}
+
+section.About_us {
+	background-color: #8c939e;
+	opacity: 0.7;
+	width: 500px;
+	position: relative;
+	left: 630px;
+	bottom: 600px;
+	border: 2px solid black;
+	border-radius: 15px;
+
+}
+
+span.space {
+
+	padding-left: 0.5em;
+}
+
+p.text.vacancies {
+	font-size: 56px;
+	color: ;
+	padding: 20px;
+}
+
+section.vacancies {
+	background-color: #8c939e;
+	opacity: 0.7;
+	width: 500px;
+	position: relative;
+	left: 630px;
+	bottom: 600px;
+	border: 2px solid black;
+	border-radius: 15px;
+
+}
+
+p.text.contacts {
+	font-size: 56px;
+	color: ;
+	padding: 20px;
+
+}
+section.contacts {
+	background-color: #8c939e;
+	opacity: 0.7;
+	width: 500px;
+	position: relative;
+	left: 630px;
+	bottom: 600px;
+	border: 2px solid black;
+	border-radius: 15px;
+
+}
+span.telphone {
+	position: relative;
+	left: 20px;
+	font-size: 56px;
+	bottom: 50px;
+}
